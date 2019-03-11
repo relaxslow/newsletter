@@ -9,7 +9,6 @@
 
         .page {
             width: 600px;
-            /* height: 601px; */
             padding: 10px 50px;
             margin: 20px;
             box-shadow: 2px 2px 1px black;
@@ -157,11 +156,11 @@
         }
 
         .pics img {
-            width: 360px;
+            width: 358px;
             height: 217px;
         }
 
-        foot {
+        .foot {
             width: 100%;
             height: 25px;
             text-align: center;
@@ -172,11 +171,58 @@
             font-size: 0.8em;
             font-family: sans-serif;
         }
+        .backgroundPics{
+            position: relative;
+        }
+        .backgroundPics img{
+            position: absolute;
+            width: 50px;
+            opacity: 0.2;
+        }
+        .backgroundPics .backImg1{
+         top: 536px;
+         left: -250px;
+         transform: rotate(-10deg);
+        }
+        .backgroundPics .backImg2{
+         top: 165px;
+         left: 253px;
+         transform: rotate(50deg);
+        }
+        .backgroundPics .backImg3{
+         top: 560px;
+         left: 180px;
+         width: 44px;
+         transform: rotate(-33deg);
+        }
+        .backgroundPics .backImg4{
+         top: 370px;
+         left: 166px;
+         width: 74px;
+         transform: rotate(125deg);
+        }
+        .backgroundPics .backImg5{
+         top: 331px;
+         left: 250px;
+         transform: rotate(35deg);
+        }
+
     </style>
 </head>
 
 <body>
     <div class='page'>
+        <div class='backgroundPics'>
+            <img class='backImg1' src="/assets/img_491934.png" alt="">
+            <img class= 'backImg2' src="/assets/drug-clipart-oral-medication-10.png" alt="">
+            <img class= 'backImg3'src="/assets/a36b3ff99d.svg" alt="">
+
+            <img class= 'backImg4'src="/assets/drug-clipart-oral-medication-10.png" alt="">
+
+            <img class= 'backImg5'src="/assets/img_491934.png" alt="">
+
+
+        </div>
         <div class='head'>
             <p>Wood County Prevention Coalition</p>
             <p>Unsubscribe</p>
@@ -224,6 +270,7 @@
         <div class='pics'>
             <img src="https://mcsapcoalition.org/content/content/Color%20LOGO%20JPEG%202%281%29.jpg" alt="">
         </div>
+
         <div class='visit'>
             <p>
                     Your community is working hard to be drug-free! To learn more interesting facts like these sign-up for our
