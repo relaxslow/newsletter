@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #d5c5c5;
+        }
+
+        .page {
+            width: 600px;
+            /* height: 601px; */
+            padding:10px 50px;
+            margin: 20px;
+            box-shadow: 2px 2px 1px black;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        .logo {
+            height: 223px;
+            width: 173px;
+        }
+
+        .logobox {
+            /* font-size: 1em; */
+            height: 200px;
+            width: 30%;
+            /* display: flex; */
+            position: absolute;
+            top: 31px;
+            left: 0;
+        }
+
+        .head .organization {
+            display: flex;
+            flex-direction: column;
+        }
+        .head p{
+            margin-bottom: 0;
+            font-family: sans-serif;
+            /* line-height: 1px; */
+            padding: 0;
+        }
+        .organization p {
+            margin: 0;
+        }
+
+        .organization .p1 {
+            font-size: 1em;
+        }
+
+        .organization .p2 {
+            font-size: 1em;
+        }
+
+        .organization .p3 {}
+
+        .listItem {
+            display: flex;
+            position: relative;
+            /* align-items: center; */
+            width: 352px;
+            margin-bottom: 13px;
+        }
+
+        .listItem svg {
+            position: absolute;
+            top: 4px;
+            width: 10px;
+            height: 10px;
+            fill: #ec7171;
+            /* pointer-events: none; */
+        }
+
+        .content {
+            font-size: 1em;
+            /* background-color: #6cbede; */
+            /* background-image: url("/assets/art-artistic-beautiful-1988681.jpg"); */
+            background-size: cover;
+            height: 419px;
+            width: 400px;
+            position: absolute;
+            top: -5px;
+            left: 202px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content span {
+            margin-left: 20px;
+            font-family: Helvetica Neue;
+            font-size: 1.2em;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3a73e0;
+        }
+
+        .visit {
+            /* position: absolute; */
+            width: 600px;
+            top: 499px;
+            left: 57px;
+            font-family: fantasy;
+        }
+
+        .signup {
+            /* position:absolute; */
+            top: 571px;
+            left: 260px;
+            background-color: #FF9800;
+            width: 160px;
+            height: 50px;
+            border: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        .title {
+            color: #6b6bb7;
+            font-family: sans-serif;
+            font-size: 2.7em;
+        }
+        .topPart{
+            display: flex;
+            position: relative;
+            width: 100%;
+            height: 421px;
+        }
+        .head{
+            width: 100%;
+            height: 44px;
+            border-bottom: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+        }
+        .pics{
+            width: 200px;
+            height: 306px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+       .foot{
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        border-top: 1px solid black;
+        margin-top: 50px;
+        vertical-align: middle;
+        line-height: 25px;
+        font-size: 0.8em;
+        font-family: sans-serif;
+       }
+    </style>
+</head>
+
+<body>
+    <div class='page'>
+        <div class='head'>
+            <p>Wood County Prevention Coalition</p>
+            <p>Unsubscribe</p>
+        </div>
+
+        <div class= 'topPart'>
+            <div class='logobox'>
+                <img class='logo' src="/assets/WCPC Logo_color.jpg">
+          
+            </div>
+            <!-- <img src="http://www.wcprevention.org/wp-content/uploads/2015/06/cropped-letterhead_header.jpg" alt=""> -->
+            <div class='content'>
+                <h1 class='title'>DID YOU KNOW?</h1>
+                <div class='listItem'>
+                    <svg viewBox='0,0,100,100'>
+                        <rect width="100" height="100" stroke="none" />
+                    </svg>
+                    <span>In 2016, opioid related deaths took the lives of 11 people a day in Ohio.</span>
+                </div>
+                <div class='listItem'>
+                    <svg viewBox='0,0,100,100'>
+                        <rect width="100" height="100" stroke="none" />
+                    </svg>
+                    <span>Nationally, about 20 percent of teens say they have taken a prescription drug without having a
+                        prescription for it themselves.</span>
+                </div>
+                <div class='listItem'>
+                    <svg viewBox='0,0,100,100'>
+                        <rect width="100" height="100" stroke="none" />
+                    </svg>
+                    <span>Teens who learn about the risks of drugs from their parents are 50% less likely to use.</span>
+                </div>
+                <div class='listItem'>
+                    <svg viewBox='0,0,100,100'>
+                        <rect width="100" height="100" stroke="none" />
+                    </svg>
+                    <span>In past 30 days, 90.3% of Wood County Youth in grades 5-12, have NOT used alcohol, tobacco, or
+                        other drugs!</span>
+                </div>
+
+                <!-- <img class='env'src="/assets/art-artistic-beautiful-1988681.jpg" alt=""> -->
+
+
+            </div>
+        </div>
+        <div class='pics'>
+            <img src="https://mcsapcoalition.org/content/content/Color%20LOGO%20JPEG%202%281%29.jpg" alt="">
+        </div>
+        <div class='visit'>
+            <p>
+                    Your community is working hard to be drug-free! To learn more interesting facts like these sign-up for our
+                    FREE newsletter or visit our website at <a href="http://www.wcprevention.org/"> wcprevention.org </a>
+            </p>
+        </div>
+        <button class='signup'>VISIT THE SITE</button>
+        <div class='foot'>
+             March 5, 2019
+        </div>
+        <script >
+            let signup=document.querySelector(".signup");
+            signup.addEventListener("click",clickSignup);
+            function clickSignup(){
+                window.location = "http://www.wcprevention.org/";
+            }
+        </script>
+
+</body>
+
+</html>
